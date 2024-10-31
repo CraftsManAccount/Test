@@ -1,0 +1,25 @@
+.lol {
+background-color: rgb(255,20,11);
+padding-left: 15px;
+padding-right: 15px;
+padding:5px;
+color: rgb(255,255,255);
+border-radius: 25px;
+border-color: rgb(255,20,11);
+font-size: 17px;
+}
+
+.lol:hover {
+border-color: black;
+color:black;
+cursor: pointer;
+}
+
+.lol:focus-within {
+    background-color: black;
+    border-color: white;
+    color: white;
+    border-width: 2px;
+    cursor: progress;
+    
+    }
